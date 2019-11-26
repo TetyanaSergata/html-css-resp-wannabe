@@ -8,6 +8,13 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 420px){
+  .row{
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
 /* BLOCCO LEZIONI */
 #lezioni .row > .left,
 #lezioni .row > .right{
@@ -20,6 +27,7 @@
   #lezioni .row > .right{
     width: 100%;
     float: none;
+    margin: 0 auto;
     background-color: lightyellow;
   }
 }
@@ -48,6 +56,7 @@
   #steps .row > .right{
     width: 100%;
     float: none;
+    margin: 0 auto;
     background-color: lightpink;
   }
 }
