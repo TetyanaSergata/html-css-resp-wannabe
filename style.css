@@ -1,6 +1,6 @@
-/* *{
+*{
   box-sizing: border-box;
-} */
+}
 .row {
   width: 992px;
   margin-left: auto;
@@ -11,6 +11,7 @@
 @media screen and (max-width: 420px){
   .row{
     width: 100%;
+    margin-top: 30px;
     padding: 0 20px;
   }
 }
@@ -25,8 +26,8 @@
 @media screen and (max-width: 420px){
   #lezioni .row > .left,
   #lezioni .row > .right{
-    width: 100%;
     float: none;
+    width: 100%;
     margin: 0 auto;
     background-color: lightyellow;
   }
@@ -54,10 +55,10 @@
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right{
-    width: 100%;
     float: none;
+    width: 100%;
     margin: 0 auto;
-    background-color: lightpink;
+    background-color: lightblue;
   }
 }
 
@@ -77,12 +78,19 @@
   margin-top: 80px;
 }
 
+
+
 #why .row img {
   background-color:#428bca;
   border-radius:50%;
   padding:30px;
 }
 
+@media screen and (max-width: 420px){
+  #why .row img {
+    padding: 10px;
+  }
+}
 /* COMMON */
 
 .container.grey{
@@ -93,25 +101,12 @@ img{
   height: 200px;
 }
 
-.clear {
-  clear:both;
+@media screen and (max-width: 420px){
+  img{
+    height: 100px;
+  }
 }
 
-/* Blocco media query */
-
-/* @media screen and (max-width: 420px) {
-  #steps .row > .right {
-    width: 100%;
-    background-color: red;
-  }
-} */
-
-/* @media screen and (max-width: 420px){
-  body{
-    background-color: lightpink;
-  }
-} */
-
-@media screen and (max-width: 420px){
-
+.clear {
+  clear:both;
 }
