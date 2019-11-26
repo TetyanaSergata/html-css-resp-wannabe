@@ -51,6 +51,7 @@
   float: left;
   width: 33%;
 }
+
 @media screen and (max-width: 420px){
   #steps .row > .left,
   #steps .row > .central,
@@ -91,6 +92,7 @@
     padding: 10px;
   }
 }
+
 /* COMMON */
 
 .container.grey{
@@ -109,4 +111,10 @@ img{
 
 .clear {
   clear:both;
+}
+
+@media screen and (max-width: 420px){
+  .container{
+    font-size: 20px;
+  }
 }
